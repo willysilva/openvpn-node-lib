@@ -22,17 +22,14 @@ class OpenVPNConnector {
 
         this.openvpnProcess.stdout.on('data', (data) => {
             console.log(`OpenVPN data: ${data}`);
-            // You can handle the output here if needed
         });
 
         this.openvpnProcess.on('close', (code) => {
             console.log(`OpenVPN process exited with code ${code}`);
-            // Handle exit code if necessary
         });
 
         this.openvpnProcess.on('error', (err) => {
             console.error(`OpenVPN process error: ${err}`);
-            // Handle errors if necessary
         });
     }
 
