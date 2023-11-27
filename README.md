@@ -7,7 +7,7 @@ This Node.js library provides functionality to manage OpenVPN connections using 
 To use this library, you'll need Node.js installed on your machine. Clone or download this repository and then install the dependencies using npm:
 
 ```bash
-npm install
+npm i openvpn-node-lib
 ```
 
 

@@ -1,6 +1,6 @@
 {
   "name": "openvpn-node-lib",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "package to connect on open vpn with certificate and password",
   "main": "index.js",
   "scripts": {
