@@ -1,0 +1,19 @@
+{
+  "name": "openvpn-node-lib",
+  "version": "1.0.0",
+  "description": "package to connect on open vpn with certificate and password",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "openvpn",
+    "library"
+  ],
+  "author": "Willy Silva",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
